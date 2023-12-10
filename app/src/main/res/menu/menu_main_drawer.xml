@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/book_information_variant"
+        android:orderInCategory="1"
+        android:title="@string/help_menu"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/prefs"
+        android:icon="@drawable/settings"
+        android:orderInCategory="2"
+        android:title="@string/preferences"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/matrix"
+        android:icon="@drawable/table_edit"
+        android:orderInCategory="4"
+        android:title="@string/matrix_editor"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/clear"
+        android:icon="@drawable/delete"
+        android:orderInCategory="6"
+        android:title="@string/clear_screen"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/probability"
+        android:icon="@drawable/alpha_s_box_outline"
+        android:orderInCategory="5"
+        android:title="@string/statevector_mode"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/openqasm"
+        android:icon="@drawable/export"
+        android:orderInCategory="3"
+        android:title="@string/export_into_qasm"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name" translatable="false">Quantum Computing Simulator</string>
+    <string name="app_name_long" translatable="false">Quantum Computing Simulator</string>
+    <string name="bloch_sphere">Bloch sphere</string>
+    <string name="run">Run</string>
+    <string name="cancel">Cancel</string>
+    <string name="preferences">Preferences</string>
+    <string name="execution_settings">Execution settings</string>
+    <string name="shots">Shots</string>
+    <string name="threads">Threads</string>
+    <string name="select_gate_type">Select gate type</string>
+    <string name="select_gate">Select gate</string>
+    <string name="single_gate">Single Qubit</string>
+    <string name="multi_gate">Multi Qubit</string>
+    <string name="operate_on">Operate on</string>
+    <string name="select_order_of_qubits">Select the order of qubits</string>
+    <string name="results">Results</string>
+    <string name="wait">Executing experiment, please wait&#8230;</string>
+    <string name="clear_screen">Clear timeline</string>
+    <string name="settings_help">Help</string>
+    <string name="settings_help_long"><![CDATA[
+    <b>Shots:</b> select how many times to run the experiment. It is a good idea to increase this
+    value as you start using more qubits. However, you can choose to use the <i>statevector mode</i>, where you get \"exact\" results.
+    You should also choose <i>statevector mode</i> if you would like to see the final statevector of the system.
+    <br/><b>Threads:</b> usually it is enough to use as many threads as CPU cores your device has, however, a little more won\'t deteriorate performance.
+    <br/><b>Output folder:</b> select where to export the results/gate sequence and user-defined matrices.
+    ]]></string>
+    <string name="matrix_editor">Gate editor</string>
+    <string name="matrix_editor_detailed">Create and edit custom gates</string>
+    <string name="gate_name">Gate name</string>
+    <string name="symbols_hint">Symbols, eg: S,X,D</string>
+    <string name="invalid_symbol">A symbol must be 1&#8211;3 characters</string>
+    <string name="matrix">Matrix</string>
+    <string name="choose_qubit_number">Number of qubits 1&#8211;4</string>
+    <string name="edit_gate">Edit gate</string>
+    <string name="choose_save_location">Please select where to save the files. You can change it later in the settings</string>
+    <string name="choose_save_location_settings">Couldn\'t save file! \nChoose a folder in settings</string>
+    <string name="save_location">Output folder</string>
+    <string name="no_folder_selected">No folder selected</string>
+    <string name="select">Select</string>
+    <string name="invalid_dim">Invalid matrix dimension, use 2^n*2^n</string>
+    <string name="invalid_symbols">Use as many symbols as qubits separated by commas</string>
+    <string name="invalid_name">Enter a valid unused name</string>
+    <string name="invalid_complex">Invalid complex number: try the format x±yi</string>
+    <string name="invalid_matrix">The matrix has to be unitary</string>
+    <string name="check_matrix">Check matrix</string>
+    <string name="determinant">Det modulus</string>
+    <string name="unitary">Unitary</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete_gate_question">Delete selected gate?</string>
+    <string name="gate_type">Gate type</string>
+    <string name="filter">Filter</string>
+    <string name="select_action">Select action</string>
+    <string name="delete_gate">Delete gate</string>
+    <string name="export_csv">Export to CSV</string>
+    <string name="successfully_exported">Successfully exported!</string>
+    <string name="successfully_imported">Successfully imported!</string>
+    <string name="save_experiment">Save experiment</string>
+    <string name="choose_experiment">Choose an experiment file to open</string>
+    <string name="invalid_file">Invalid file selected!</string>
+    <string name="experiment_saved">Saved to home folder as:</string>
+    <string name="unknown_error">An unknown error has occurred :(</string>
+    <string name="no_user_gates">No user defined gates are available!</string>
+    <string name="no_gates">No gates to be saved!</string>
+    <string name="statevector_mode">Statevector mode</string>
+    <string name="hermitian_conjugate">Hermitian conjugate (dagger)</string>
+    <string name="inverse_qft">Inverse QFT</string>
+    <string name="use_different_qubits">A qubit can only be used once in each gate</string>
+    <string name="click_to_start">Click anywhere on the screen to start!</string>
+    <string name="copy_matrix">Copy matrix</string>
+    <string name="help_menu">Help</string>
+    <string name="are_you_sure_to_quit">Do you really want to quit?</string>
+    <string name="any_unsaved_will_be_lost">Any unsaved changes will be lost</string>
+    <string name="exit">Exit</string>
+    <string name="next_qubit">Next qubit</string>
+    <string name="previous_qubit">Prev. qubit</string>
+    <string name="long_click_to_delete">Long click on gates to delete them</string>
+    <string name="save">Save</string>
+    <string name="select_filename">Choose a filename</string>
+    <string name="csv_settings">CSV settings</string>
+    <string name="csv_separator">Separator</string>
+    <string name="csv_number_format">Scientific notation</string>
+    <string name="csv_number_format_long">Using the scientific notation more significant digits can be displayed, however, some programs may not support it</string>
+    <string name="fixed_values">Significant angles</string>
+    <string name="optimize_circuit">Optimize circuit</string>
+    <string name="optimize_circuit_long">This will move the circuit to the smallest qubits. Useful when using many qubits or gates. (EXPERIMENTAL)</string>
+    <string name="state_of_qubit_warning">State before first MQ gate</string>
+    <string name="gui_settings">GUI options</string>
+    <string name="predefined_gate_shortcuts">Enable gate shortcuts</string>
+    <string name="predefined_gate_shortcuts_sum">Show gate shortcuts on the bottom of the navigation bar</string>
+    <string name="predefined_gate_shortcuts_close">Automatically close the navbar</string>
+    <string name="predefined_gate_shortcuts_close_sum">Close the navigation bar when you select a gate shortcut</string>
+    <string name="move_gate_to_left">Move the gate to the left</string>
+    <string name="move_gate_to_right">Move the gate to the right</string>
+    <string name="export_into_qasm">Export into OpenQASM</string>
+    <string name="export_into_qasm_compatibility">Please be careful! Multi-qubit user-defined gates cannot be exported to OpenQASM. Please check the export file for any messages.</string>
+    <string name="export">Export</string>
+    <string name="warning">Warning</string>
+    <string name="are_you_sure_to_delete">Do you really want to remove all gates?</string>
+    <string name="assembling_experiment">Assembling the final unitary matrix</string>
+    <string name="fileformat_not_supported">.viqus and .vqg files are no longer supported</string>
+    <string name="doable_edit_menu">Edit menu</string>
+    <string name="doable_add">Add</string>
+    <string name="doable_delete">Delete</string>
+    <string name="doable_edit">Edit</string>
+    <string name="doable_move">Move</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="title_save">Save circuit</string>
+    <string name="title_export">Export circuit</string>
+    <string name="graph">Graph</string>
+    <string name="close">Close</string>
+    <string name="invalid_gate_short">Invalid</string>
+    <string name="qft_qubits">Number of qubits for QFT</string>
+    <string name="omega_value">\u03C9=e&lt;sup>2i\u03C0%1$d/%2$d&lt;/sup></string>
+    <string name="openqasm_support_export_only">OpenQASM support is export only, such files cannot be opened</string>
+    <string name="open_gate_files_gate_editor">Gate files can be opened with the Gate Editor</string>
+    <string name="ignoring_qubit_values">Toggle Qubit Measurement</string>
+    <string name="ignore_qubit_howto">You can toggle the measurement of any qubit by pressing on their name.
+    Red/dark-grey qubits will be measured whereas pale-grey qubits won\'t be.
+    This can simplify the evaluation of the results, for you.</string>
+    <string name="controlled">Controlled</string>
+    <string name="single">Single</string>
+    <string name="control_short">c</string>
+    <string name="target_short">t</string>
+</resources>

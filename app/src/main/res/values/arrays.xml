@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shots">
+        <item>Always use statevector mode</item>
+        <item>Pick a single outcome</item>
+        <item>256</item>
+        <item>1K</item>
+        <item>4K (default)</item>
+        <item>16K</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>8M (really slow)</item>
+        <item>128M (for testing)</item>
+    </string-array>
+    <string-array name="shots_values">
+        <item>0</item>
+        <item>1</item>
+        <item>256</item>
+        <item>1024</item>
+        <item>4096</item>
+        <item>16384</item>
+        <item>65536</item>
+        <item>262144</item>
+        <item>1048576</item>
+        <item>8388608</item>
+        <item>134217728</item>
+    </string-array>
+    <string-array name="threads">
+        <item>Single thread (not recommended)</item>
+        <item>2 threads</item>
+        <item>4 threads</item>
+        <item>8 threads</item>
+        <item>16 threads</item>
+        <item>64 threads</item>
+    </string-array>
+    <string-array name="threads_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>64</item>
+    </string-array>
+    <string-array name="gate_types">
+        <item>Predefined</item>
+        <item>User defined</item>
+        <item>U3</item>
+        <item>Quantum Fourier T.</item>
+    </string-array>
+    <string-array name="filter_gates">
+        <item>No filter</item>
+        <item>Single qubit gates only</item>
+        <item>Multi qubit gates only</item>
+    </string-array>
+    <string-array name="separator">
+        <item>Tab</item>
+        <item>Semicolon</item>
+        <item>Comma (default)</item>
+    </string-array>
+    <string-array name="separator_value">
+        <item>\t</item>
+        <item>;</item>
+        <item>,</item>
+    </string-array>
+    <string-array name="qft_qubits">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+</resources>

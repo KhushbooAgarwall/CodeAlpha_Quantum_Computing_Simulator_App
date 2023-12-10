@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.khushboo.quantumcomputingsimulator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="com.khushboo.quantumcomputingsimulator.HelpActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/help_menu"
+            android:parentActivityName="com.khushboo.quantumcomputingsimulator.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.khushboo.quantumcomputingsimulator.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.khushboo.quantumcomputingsimulator.MatrixEditorActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/matrix_editor"
+            android:parentActivityName="com.khushboo.quantumcomputingsimulator.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.khushboo.quantumcomputingsimulator.MainActivity" />
+        </activity>
+        <activity android:name="com.khushboo.quantumcomputingsimulator.PreferenceActivity" />
+        <activity
+            android:name="com.khushboo.quantumcomputingsimulator.MainActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
